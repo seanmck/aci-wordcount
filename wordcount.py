@@ -35,8 +35,6 @@ for word in text.split():
 sortedList = sorted(wordcount.items(), key=lambda item: item[1], reverse=True)
                                                                               
 numWords = int(os.environ['NumWords'])                                        
-top10 = sortedList[:numWords]                                                
-pprint(top10)                                                                
+topWords = sortedList[:numWords]                                                
+pprint(topWords)                                                                
 file.close();
-
-tail("-f", "/dev/null")
