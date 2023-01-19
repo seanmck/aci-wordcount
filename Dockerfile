@@ -1,4 +1,4 @@
-FROM python:3.6.2-slim
+FROM python:alpine3.17
 COPY * /
 RUN pip install html2text && pip install urllib3 && pip install sh
 ENV NumWords=10 MinLength=0
