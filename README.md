@@ -16,8 +16,8 @@ You can configure the following through environment variables:
 
 ### Command line override
 
-To count the words of a different text, you can override the command line for the container. For example, to count the words of Romeo and Juliet instead of Hamlet:
+To count the words of a different text, you can override the command line for the container. For example, to count the words of my blog:
 
 ```
-wordcount.py http://shakespeare.mit.edu/romeo_juliet/full.html
+wordcount.py http://blog.coppet.fr/
 ```
